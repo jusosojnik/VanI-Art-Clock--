@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-image: url('assets/moon.jpg');
+    background-repeat:no-repeat;
+    background-size: auto;
+}
+
+#work-title {
+    position: absolute;
+    /*top: 18%;
+    left: 8%;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    font-size: 350%;
+    color: white;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.clock {
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    opacity: 0.3;
+    position: absolute;
+    cursor: pointer;
+    /*top: 18%;
+    left: 8%;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+.num-main {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+}
+
+.num-sub {
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+}
+
+#line11 {
+    transform: translate(787.5%, -1500.6%);
+}
+
+#line12 {
+    transform: translate(1400.6%, -887.5%);
+}
+
+#line21 {
+    transform: translate(1400.6%, 787.5%);
+}
+
+#line22 {
+    transform: translate(787.5%, 1400.6%);
+}
+
+#line31 {
+    transform: translate(-887.5%, 1400.6%);
+}
+
+#line32 {
+    transform: translate(-1500.6%, 787.5%);
+}
+
+#line41 {
+    transform: translate(-887.5%, -1500.6%);
+}
+
+#line42 {
+    transform: translate(-1500.6%, -887.5%);
+}
+
+#line1 {
+    transform: translate(-50%, -1220%);
+}
+
+#line2 {
+    transform: translate(-50%, 1120%);
+}
+
+#line3 {
+    transform: translate(-1220%, -50%);
+}
+
+#line4 {
+    transform: translate(1120%, -50%);
+}
+
+#hPointer {
+    width: 20px;
+    height: 145px;
+    background-color: black;
+    opacity: 1;
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%) rotate(0deg);    
+    border-radius: 50%;
+}
+
+#mPointer {
+    width: 20px;
+    height: 245px;
+    background-color: black;
+    opacity: 1;
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%) rotate(0deg);    
+    border-radius: 50%;
+}
+
+#sPointer {
+    width: 2px;
+    height: 246px;
+    background-color: black;
+    opacity: 1;
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%) rotate(0deg);    
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+@media only screen and (max-width: 1600px) {
+	#work-title {
+    position: absolute;
+    /*top: 18%;
+    left: 8%;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+	}
+	
+	.clock {
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    opacity: 0.3;
+    position: absolute;
+    /*top: 18%;
+    left: 8%;*/
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+	}
+
+	.num-main {
+		width: 16px;
+		height: 16px;
+		background-color: black;
+		opacity: 0.5;
+		border-radius: 100%;
+	}
+
+	.num-sub {
+		width: 11.2px;
+		height: 11.2px;
+		background-color: black;
+		opacity: 0.5;
+		border-radius: 100%;
+	}
+
+	#line11 {
+		transform: translate(787.5%, -1500.6%);
+	}
+
+	#line12 {
+		transform: translate(1400.6%, -887.5%);
+	}
+
+	#line21 {
+		transform: translate(1400.6%, 787.5%);
+	}
+
+	#line22 {
+		transform: translate(787.5%, 1400.6%);
+	}
+
+	#line31 {
+		transform: translate(-887.5%, 1400.6%);
+	}
+
+	#line32 {
+		transform: translate(-1500.6%, 787.5%);
+	}
+
+	#line41 {
+		transform: translate(-887.5%, -1500.6%);
+	}
+
+	#line42 {
+		transform: translate(-1500.6%, -887.5%);
+	}
+
+	#line1 {
+		transform: translate(-50%, -1220%);
+	}
+
+	#line2 {
+		transform: translate(-50%, 1120%);
+	}
+
+	#line3 {
+		transform: translate(-1220%, -50%);
+	}
+
+	#line4 {
+		transform: translate(1120%, -50%);
+	}
+
+	#hPointer {
+		width: 16px;
+		height: 116px;
+		background-color: black;
+		opacity: 1;
+		transform-origin: bottom center;
+		transform: translate(-50%, -100%) rotate(0deg);    
+		border-radius: 50%;
+	}
+
+	#mPointer {
+		width: 16px;
+		height: 196px;
+		background-color: black;
+		opacity: 1;
+		transform-origin: bottom center;
+		transform: translate(-50%, -100%) rotate(0deg);    
+		border-radius: 50%;
+	}
+
+	#sPointer {
+		width: 1.6px;
+		height: 196.8px;
+		background-color: black;
+		opacity: 1;
+		transform-origin: bottom center;
+		transform: translate(-50%, -100%) rotate(0deg);    
+		border-radius: 50%;
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+}
